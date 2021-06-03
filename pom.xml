@@ -6,5 +6,36 @@
 	<artifactId>labcodingstandards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>LabCodingStandards</name>
-	<description>Lab Coding Standards, Sofware Engineering II</description>
+	<description>Lab by Lessette Zambrano, Sofware Engineering II</description>
+	<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
+	<build>
+    <plugins>
+		<plugin>
+	  	    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-site-plugin</artifactId>
+		    <version>3.7.1</version>
+		</plugin>
+        <plugin>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-project-info-reports-plugin</artifactId>
+		    <version>3.0.0</version>
+        </plugin>
+    </plugins>
+</build>
+<reporting>
+    <plugins>
+        <plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-checkstyle-plugin</artifactId>
+	    <version>3.1.2</version>
+		<configuration>
+			<violationSeverity>warning</violationSeverity>
+		    <configLocation>_checks.xml</configLocation>
+		</configuration>
+	</plugin>
+    </plugins>
+</reporting>
 </project>

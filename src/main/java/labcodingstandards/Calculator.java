@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  */
 public class Calculator {	
-	
+	//CHECKSTYLE:OFF
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
 		
@@ -52,6 +52,7 @@ public class Calculator {
         System.out.printf(result);
 		reader.close();
 	}
+	//CHECKSTYLE:ON
 
 	private String Operation(double first,double second,char operator) {
 		double result = 0;
