@@ -5,7 +5,7 @@
 	<groupId>com.espol.edu</groupId>
 	<artifactId>labcodingstandards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>LabCodingStandards</name>
+	<name>LabCodingStandards-ZAMBRANO LESSETTE</name>
 	<description>Lab by Lessette Zambrano, Sofware Engineering II</description>
 	<properties>
     <maven.compiler.source>1.6</maven.compiler.source>

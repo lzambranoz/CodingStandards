@@ -19,13 +19,13 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>LabCodingStandards - Checkstyle report</title>
+    <title>LabCodingStandards-ZAMBRANO LESSETTE - Checkstyle report</title>
     <link>${project.url}</link>
-    <description>LabCodingStandards - Checkstyle report</description>
+    <description>LabCodingStandards-ZAMBRANO LESSETTE - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2021</copyright>
     <item>
-      <title>File: 1,
+      <title>File: 0,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -44,20 +44,6 @@ under the License.
             </tr>
           </thead>
           <tbody>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#labcodingstandards.Calculator.java">labcodingstandards/Calculator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
                       </tbody>
         </table>
         
